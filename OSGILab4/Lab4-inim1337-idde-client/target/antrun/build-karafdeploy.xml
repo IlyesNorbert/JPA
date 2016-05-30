@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="karafdeploy"  >
+<target name="karafdeploy">
+  <copy file="C:\Users\ilyes\OneDrive\Egyetem\3. ev\2. felev\IDDE\OSGILab4\Lab4-inim1337-idde-client\target/Lab4-inim1337-idde-client-1.0.jar" todir="C:\Users\ilyes\OneDrive\Egyetem\3. ev\2. felev\IDDE\Tools\apache-karaf-4.0.5\\deploy\\"/>
+</target>
+</project>

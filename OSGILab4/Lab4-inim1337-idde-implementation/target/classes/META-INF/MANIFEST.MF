@@ -1,0 +1,53 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1463736068682
+Build-Jdk: 1.8.0_91
+Built-By: ilyes
+Bundle-Activator: edu.ubb.cs.idde.implementation.Activator
+Bundle-ClassPath: .,mysql-connector-java-5.1.6.jar,logback-classic-1.1.7
+ .jar,logback-core-1.1.7.jar
+Bundle-Description: Lab4-inim1337-idde-implementation OSGi bundle projec
+ t.
+Bundle-DocURL: www.cs.ubbcluj.ro
+Bundle-ManifestVersion: 2
+Bundle-Name: Lab4-inim1337-idde-implementation Bundle
+Bundle-SymbolicName: Lab4-inim1337-idde-implementation
+Bundle-Vendor: Babes-Bolyai University
+Bundle-Version: 1.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: mysql*,logback*
+Embed-Transitive: True
+Embedded-Artifacts: mysql-connector-java-5.1.6.jar;g="mysql";a="mysql-co
+ nnector-java";v="5.1.6",logback-classic-1.1.7.jar;g="ch.qos.logback";a=
+ "logback-classic";v="1.1.7",logback-core-1.1.7.jar;g="ch.qos.logback";a
+ ="logback-core";v="1.1.7"
+Import-Package: edu.ubb.cs.idde.inter;version="[1.0,2)",com.mchange.v2.c
+ 3p0;resolution:=optional,groovy.lang;resolution:=optional,javax.jms;res
+ olution:=optional,javax.mail;resolution:=optional,javax.mail.internet;r
+ esolution:=optional,javax.management;resolution:=optional,javax.naming;
+ resolution:=optional,javax.naming.spi;resolution:=optional,javax.net;re
+ solution:=optional,javax.net.ssl;resolution:=optional,javax.servlet;res
+ olution:=optional,javax.servlet.http;resolution:=optional,javax.sql;res
+ olution:=optional,javax.transaction.xa;resolution:=optional,javax.xml.n
+ amespace;resolution:=optional,javax.xml.parsers;resolution:=optional,ja
+ vax.xml.stream;resolution:=optional,javax.xml.stream.events;resolution:
+ =optional,javax.xml.transform;resolution:=optional,javax.xml.transform.
+ dom;resolution:=optional,javax.xml.transform.sax;resolution:=optional,j
+ avax.xml.transform.stax;resolution:=optional,javax.xml.transform.stream
+ ;resolution:=optional,org.apache.commons.logging;resolution:=optional,o
+ rg.apache.log4j;resolution:=optional,org.codehaus.commons.compiler;reso
+ lution:=optional,org.codehaus.groovy.control;resolution:=optional,org.c
+ odehaus.groovy.control.customizers;resolution:=optional,org.codehaus.gr
+ oovy.reflection;resolution:=optional,org.codehaus.groovy.runtime;resolu
+ tion:=optional,org.codehaus.groovy.runtime.callsite;resolution:=optiona
+ l,org.codehaus.groovy.runtime.typehandling;resolution:=optional,org.cod
+ ehaus.groovy.runtime.wrappers;resolution:=optional,org.codehaus.groovy.
+ transform;resolution:=optional,org.codehaus.janino;resolution:=optional
+ ,org.jboss.resource.adapter.jdbc;resolution:=optional,org.jboss.resourc
+ e.adapter.jdbc.vendor;resolution:=optional,org.osgi.framework;resolutio
+ n:=optional;version="[1.8,2)",org.slf4j;resolution:=optional;version="[
+ 1.7,2)",org.slf4j.event;resolution:=optional;version="[1.7,2)",org.slf4
+ j.helpers;resolution:=optional;version="[1.7,2)",org.slf4j.spi;resoluti
+ on:=optional;version="[1.7,2)",org.w3c.dom;resolution:=optional,org.xml
+ .sax;resolution:=optional,org.xml.sax.helpers;resolution:=optional,sun.
+ reflect;resolution:=optional
+Tool: Bnd-2.1.0.20130426-122213

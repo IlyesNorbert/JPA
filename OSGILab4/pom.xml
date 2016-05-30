@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+   http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>edu.ubb.cs.idde.osgi</groupId>
+	<artifactId>Lab4-inim1337-parent</artifactId>
+	<version>1.0</version>
+	
+	<packaging>pom</packaging>
+	<modules>
+		<module>Lab4-inim1337-idde-interface</module>
+		<module>Lab4-inim1337-idde-implementation</module>
+		<module>Lab4-inim1337-idde-client</module>
+	</modules>
+	
+	<organization>
+		<name>Babes-Bolyai University</name>
+		<url> www.cs.ubbcluj.ro </url>
+	</organization>
+	
+	<developers>
+		<developer>
+			<name>Ilyes Norbert</name>
+			<email>ilyes_norbert@yahoo.com</email>
+			<organization> Babes-Bolyai University </organization>
+			<organizationUrl> http://cs.ubbcluj.ro </organizationUrl>
+		</developer>
+	</developers>
+	
+	<distributionManagement>
+		<snapshotRepository>
+			<id>nexus-snapshot</id>
+			<url>http://pdae.cs.ubbcluj.ro/nexus/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>nexus-release</id>
+			<url>http://pdae.cs.ubbcluj.ro/nexus/content/repositories/releases</url>
+		</repository>
+	</distributionManagement>
+	
+	
+</project>

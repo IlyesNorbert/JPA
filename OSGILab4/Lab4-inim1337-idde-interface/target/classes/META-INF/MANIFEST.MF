@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1463736066252
+Build-Jdk: 1.8.0_91
+Built-By: ilyes
+Bundle-Activator: edu.ubb.cs.idde.inter.Activator
+Bundle-Description: Lab4-inim1337-idde-interface OSGi bundle project.
+Bundle-DocURL: www.cs.ubbcluj.ro
+Bundle-ManifestVersion: 2
+Bundle-Name: Lab4-inim1337-idde-interface Bundle
+Bundle-SymbolicName: Lab4-inim1337-idde-interface
+Bundle-Vendor: Babes-Bolyai University
+Bundle-Version: 1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: edu.ubb.cs.idde.inter;version="1.0";uses:="org.osgi.fram
+ ework"
+Import-Package: org.osgi.framework;version="[1.8,2)"
+Tool: Bnd-2.1.0.20130426-122213
